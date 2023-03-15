@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>YouTube Downloader</title>
+  <!-- import Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>YouTube Downloader</h1>
+    <form action="/downloadmp4" method="get">
+      <div class="form-group">
+        <label for="url">Enter YouTube URL:</label>
+        <input type="text" class="form-control" id="url" name="url">
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary" name="download" value="downloadmp4">Download MP4</button>
+        <button type="submit" class="btn btn-success" name="download" value="downloadmp3">Download MP3</button>
+      </div>
+    </form>
+  </div>
+  <!-- import Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
